@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity"
+    >
+
+    <TextView
+        android:id="@+id/Nome"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/nomeCadastro"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/retangulo"
+        android:textColor="@color/colorWhite"
+        />
+    
+    
+    <EditText
+        android:id="@+id/nomeCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/nomeCadastro"
+        android:layout_below="@id/Nome"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/login"
+        android:layout_below="@+id/nomeCadastro"
+        android:background="@drawable/retangulo"
+        android:textColor="@color/colorWhite"
+        />
+
+
+    <EditText
+        android:id="@+id/loginCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/login"
+        android:layout_below="@id/login"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/pass"
+        android:layout_below="@+id/loginCadastro"
+        android:background="@drawable/retangulo"
+        android:textColor="@color/colorWhite"
+        />
+
+
+    <EditText
+        android:id="@+id/passCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/pass"
+        android:layout_below="@id/pass"
+        android:textSize="14sp"
+
+        />
+
+    <TextView
+        android:id="@+id/repass"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/repass"
+        android:layout_below="@+id/passCadastro"
+        android:background="@drawable/retangulo"
+        android:textColor="@color/colorWhite"
+        />
+
+
+    <EditText
+        android:id="@+id/repassCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/repass"
+        android:layout_below="@id/repass"
+        android:textSize="14sp"
+        />
+
+    <Button
+        android:id="@+id/cadastrarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastro"
+        android:layout_below="@id/repassCadastro"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+
+
+
+</RelativeLayout>

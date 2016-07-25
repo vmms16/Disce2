@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Disce</string>
+    <string name="login">Login</string>
+    <string name="pass">Senha</string>
+    <string name="logar">Logar</string>
+    <string name="cadastrar">Cadastre-se</string>
+    <string name="assistir">Assista Aula</string>
+    <string name="busca">Digite o que quer aprender</string>
+    <string name="procurar">Buscar Conteudo</string>
+    <string name="tamano">10dp</string>
+    <string name="material">Material
+    Didatico</string>
+    <string name="aula">Assistir
+    Aula</string>
+    <string name="buscarmaterial">Mais
+    Material</string>
+    <string name="salas">Salas de
+    Aula</string>
+    <string name="nomeCadastro">Nome</string>
+    <string name="repass">Insira senha novamente</string>
+    <string name="cadastro">Cadastrar</string>
+    <string name="buscarmaterialacademico">Buscar Artigos</string>
+</resources>
